@@ -1,4 +1,4 @@
-# SurpriseMonadNFT v2 🎉
+# SurpriseMonadNFT v2 
 
 A feature-packed ERC-721 collection for the **Monad** testnet (and any EVM-compatible chain).  
 Out of the box you get:
@@ -13,4 +13,45 @@ Out of the box you get:
 ---
 
 ## Folder structure
+```
+├── contracts
+│ └── SurpriseMonadNFT.sol
+├── scripts
+│ ├── deploy.ts
+│ └── merkle-root.ts
+├── test
+│ └── SurpriseMonadNFT.test.ts
+├── hardhat.config.ts
+└── README.md ← you are here
+
+│ └── merkle-root.ts
+├── test
+│ └── SurpriseMonadNFT.test.ts
+├── hardhat.config.ts
+└── README.md ← you are here
+```
+---
+
+## 1 · Prerequisites
+
+* **Node.js 18+** and **NPM** / **Yarn**
+* **Hardhat** (TypeScript or JavaScript)
+* **MetaMask** (or any wallet that supports Monad testnet)
+* Test MON from the [Monad faucet](https://faucet.monad.xyz)
+
+```bash
+# clone & install
+git clone https://github.com/your-github/SurpriseMonadNFT.git
+cd SurpriseMonadNFT
+npm install            # or yarn
+```
+2 · Compile
+```bash
+
+npx hardhat compile
+```
+
+
+Solidity version: 0.8.20
+OpenZeppelin Contracts: v5.x
 
