@@ -37,7 +37,7 @@ Out of the box you get:
 * **Node.js 18+** and **NPM** / **Yarn**
 * **Hardhat** (TypeScript or JavaScript)
 * **MetaMask** (or any wallet that supports Monad testnet)
-* Test MON from the [Monad faucet](https://faucet.monad.xyz)
+* Test MON from the >>>> [Monad faucet](https://faucet.monad.xyz)
 
 ```bash
 # clone & install
